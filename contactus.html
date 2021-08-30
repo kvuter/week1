@@ -1,0 +1,80 @@
+<!doctype>
+<html>
+<head>
+
+   <link rel="stylesheet" href="style.css">
+   <title>I WANT FLOWERS</title>
+
+   <!-- extra css and simple javascripts for this page -->
+    <style>
+        .scene{
+            background-image:url(img/pavan-trikutam-1660-unsplashcontact%20us.jpg);
+        }
+
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: skyblue;
+            color: navajowhite;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .contactbox {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+         
+    </style>
+</head>
+
+<body>
+
+    <section class="scene">
+       
+        <!-- menu on the top right. I linked each pages. -->
+        <ul>
+          <li><a href="contactus.html">Contact</a></li>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+
+        <!-- Contact us box. -->
+        <header>
+            <h1>CONTACT US</h1>
+                
+                <div class="contactbox">
+                  <form action="website@IWantFlower.com.au" method="get">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Your name">
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                  </form>
+                </div>
+           
+        </header>
+        
+    </section>
+    
+</body>    
+</html>

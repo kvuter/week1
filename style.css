@@ -1,0 +1,47 @@
+body{
+    margin:0;
+}
+.scene{
+    height:100vh;
+    overflow: hidden;
+    background-attachment:fixed;
+    background-size: 70%;
+}
+.scene{
+    background-image:url(img/main%20background.jpg);
+}
+.scene header{
+    color:white;
+    max-width: 80%;
+    position: relative;
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    font-size:1.5rem;
+    text-align:center;
+}
+.scene header h1{
+    font-size:2rem;
+    margin-bottom:1rem;
+    border-bottom:5px solid white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: navajowhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
